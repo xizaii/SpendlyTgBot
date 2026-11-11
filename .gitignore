@@ -32,3 +32,6 @@ htmlcov/
 
 # Docker
 .dockerignore
+
+# Секреты базы данных
+DatabaseURL.txt
