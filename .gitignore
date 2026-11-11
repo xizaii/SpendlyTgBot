@@ -1,0 +1,34 @@
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Переменные окружения (секреты и токены)
+.env
+.env.local
+
+# Базы данных SQLite (если тестируется локально)
+*.sqlite
+*.db
+
+# Логи
+*.log
+
+# Кэш тестов
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Настройки IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
